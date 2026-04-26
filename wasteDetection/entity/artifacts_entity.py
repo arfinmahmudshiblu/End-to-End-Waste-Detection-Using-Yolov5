@@ -7,9 +7,9 @@ class DataIngestionArtifact:
 
 
 
-# @dataclass
-# class DataValidationArtifact:
-#     validation_status: bool
+@dataclass
+class DataValidationArtifact:
+    validation_status: bool
 
 
 
