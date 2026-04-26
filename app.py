@@ -2,12 +2,17 @@
 
 # logging.info("Welcome to my custom log")
 
-from wasteDetection.logger import logging
-from wasteDetection.exception import AppException
-import sys
+# from wasteDetection.logger import logging
+# from wasteDetection.exception import AppException
+# import sys
 
-try:
-    r=3/0
-except Exception as e:
-    logging.info(e)
-    raise AppException(e, sys) 
+# try:
+#     r=3/0
+# except Exception as e:
+#     logging.info(e)
+#     raise AppException(e, sys) 
+
+from wasteDetection.pipeline import TrainPipeline
+
+obj = TrainPipeline()
+obj.run_pipeline()
