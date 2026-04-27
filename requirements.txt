@@ -4,7 +4,7 @@ notebook==7.0.0a7
 gdown
 flask-cors
 flask
-
+subprocess
 
 # YOLOv5 requirements
 # Usage: pip install -r requirements.txt
